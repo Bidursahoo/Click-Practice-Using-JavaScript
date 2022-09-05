@@ -1,4 +1,6 @@
-
+body{
+    background-color: #6200EE;
+}
 
 h1{
     display: flex;
