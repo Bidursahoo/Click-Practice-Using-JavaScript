@@ -22,3 +22,9 @@ squares.forEach(name => {
 // squares.forEach(element => {
 //     console.log(element.value);
 // });
+const clear = document.getElementById('reset')
+
+const clearScores = () =>{
+    squares.forEach(square => square.innerText = ' ' )
+}
+clear.onclick = () => clearScores()
