@@ -6,3 +6,12 @@
     border: none;
     font-size: 70px;
 }
+@media (max-width:650px) {
+    .colouButton{
+        display:block;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    
+}
