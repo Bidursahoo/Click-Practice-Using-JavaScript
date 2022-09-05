@@ -25,6 +25,9 @@ squares.forEach(name => {
 const clear = document.getElementById('reset')
 
 const clearScores = () =>{
+    timeClicked.rock = 0;
+    timeClicked.paper = 0;
+    timeClicked.sizzors = 0;
     squares.forEach(square => square.innerText = ' ' )
 }
 clear.onclick = () => clearScores()
